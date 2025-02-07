@@ -1,0 +1,26 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/cs0165/public_html/
+    - /bin/mv -r public/assets $DEPLOYPATH/assets
+    - /bin/mv -r public/bootstrap $DEPLOYPATH/bootstrap
+    - /bin/mv -r public/build $DEPLOYPATH/build
+    - /bin/mv -r public/css $DEPLOYPATH/css
+    - /bin/mv -r public/dist $DEPLOYPATH/dist
+    - /bin/mv -r public/files $DEPLOYPATH/files
+    - /bin/mv -r public/fonts $DEPLOYPATH/fonts
+    - /bin/mv -r public/images $DEPLOYPATH/images
+    - /bin/mv -r public/img $DEPLOYPATH/img
+    - /bin/mv -r public/js $DEPLOYPATH/js
+    - /bin/mv -r public/plugins $DEPLOYPATH/plugins
+    - /bin/mv -r public/vendor $DEPLOYPATH/vendor
+    - /bin/mv -r public/vendors $DEPLOYPATH/vendors
+    - /bin/mv -r public/word-template $DEPLOYPATH/word-template
+    - /bin/mv public/.htaccess $DEPLOYPATH
+    - /bin/mv public/favicon.ico $DEPLOYPATH
+    - /bin/mv public/mix-manifest.json $DEPLOYPATH
+    - /bin/mv public/references.bib $DEPLOYPATH
+    - /bin/mv public/robots.txt $DEPLOYPATH
+    - /bin/mv public/test.bib $DEPLOYPATH
+    - /bin/mv public/test.txt $DEPLOYPATH
+    - /bin/mv public/web.config $DEPLOYPATH
