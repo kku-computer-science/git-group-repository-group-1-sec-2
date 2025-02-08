@@ -14,6 +14,7 @@
 
 
 ## Tutorial: How to Use Git and Submodule
+Commit ที่เกิดขึ้นใน Submodule จะไม่ไม่ถูกแสดงใน Repository หลัก จึงต้องทำารดูการ Commit ใน Submodule โดยตรง
 
 ### How to Clone
 To clone a repository, use the following command:
@@ -24,5 +25,5 @@ git clone https://github.com/kku-computer-science/git-group-repository-group-1-s
 ### How to Manage Submodules
 To update an existing submodule, run:
 ```sh
-git submodule update --remote
+git submodule update --init --recursive
 ```
