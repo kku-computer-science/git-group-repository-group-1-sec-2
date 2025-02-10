@@ -1,0 +1,9 @@
+[submodule "SourceCode"]
+	path = SourceCode
+	url = https://github.com/kku-computer-science/SoftEngSourceCodeG1S2
+[submodule "Documents"]
+	path = Documents
+	url = https://github.com/kku-computer-science/SoftEngDocsG1S2
+[submodule "Test"]
+	path = Test
+	url = https://github.com/kku-computer-science/SoftEngTestG1S2
