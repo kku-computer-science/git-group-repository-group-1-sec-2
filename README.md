@@ -1,5 +1,7 @@
 # Software-Engineer-Project-Group1-Section2
 
+## Project URL (https://cs0165.cpkkuhost.com/)
+
 ## Project Description
 โครงการนี้เป็นส่วนหนึ่งของวิชา Software Engineering CP353004 
 
