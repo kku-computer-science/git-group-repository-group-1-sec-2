@@ -1,9 +1,12 @@
-[submodule "SourceCode"]
-	path = SourceCode
-	url = https://github.com/kku-computer-science/SoftEngSourceCodeG1S2
 [submodule "Documents"]
 	path = Documents
 	url = https://github.com/kku-computer-science/SoftEngDocsG1S2
 [submodule "Test"]
 	path = Test
 	url = https://github.com/kku-computer-science/SoftEngTestG1S2
+[submodule "SourceCodeProject/version2"]
+	path = SourceCodeProject/version2
+	url = https://github.com/kku-computer-science/SoftEngSourceCodeG1S2.git
+[submodule "SourceCodeProject/version3"]
+	path = SourceCodeProject/version3
+	url = https://github.com/kku-computer-science/SoftEngSourceCodeG1S2.git
